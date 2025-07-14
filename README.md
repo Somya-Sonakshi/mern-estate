@@ -4,30 +4,73 @@ A full-stack real estate application built with the MERN stack, enabling users t
 
 ---
 
+## 🔗 🚀 [**Live Demo**](https://mern-estate-3-wgzw.onrender.com/)  
+
+> Click the link above to explore the full app in action.
+
+---
+
 ## 🔧 Tech Stack
 
 - **Frontend**: React.js + Redux + Tailwind CSS  
-- **Backend**: Express.js with MongoDB (via Mongoose)  
-- **Authentication**: Firebase (secure signup/login, protected routes with Google Sign-In)
+- **Backend**: Express.js + MongoDB (via Mongoose)  
+- **Authentication**: Firebase (Email/Password + Google Sign-In)  
+- **Media/UX**: Swiper.js (for responsive image sliders)
 
 ---
 
 ## ✨ Features
 
-- **User Listings**: Users can add, edit, and delete property listings including images, pricing, and amenities  
-- **Listing Types**: Supports listings for Sale, Rent, or both  
-- **Filters & Sorting**: Users can filter properties by type, offer availability, parking, furnished status, and sort by price or date  
-- **Pagination**: “Show More” functionality implemented using a `startIndex` parameter  
-- **Responsive Design**: Mobile-first responsive UI powered by Tailwind CSS  
-- **State Management**: Global state handled using Redux for authentication, filters, and listings  
+### 🏠 Property Listings
 
----
+- Add, edit, delete listings (only accessible to the listing owner)  
+- Upload property images, define pricing, amenities, type, and description  
+- Listing types include **For Sale**, **For Rent**, or **Both**
+
+### 🔍 Advanced Filtering & Sorting
+
+- Filter listings by:  
+  - Type: Sale / Rent  
+  - Offer availability  
+  - Parking availability  
+  - Furnished status  
+- Sort listings by:  
+  - Price (low to high / high to low)  
+  - Date (latest / oldest)
+
+### 📱 Responsive UI
+
+- Fully mobile-first responsive design using **Tailwind CSS**  
+- Modern and clean user interface with dynamic transitions
+
+### 🔁 Pagination
+
+- “Show More” feature implemented using a **`startIndex`** parameter for lazy loading / paginated results
+
+### 🔐 Authentication
+
+- Firebase Auth with secure sign-up/login  
+- Google OAuth integrated  
+- Protected routes for listing creation and user-specific actions
+
+### 📦 State Management
+
+- **Redux Toolkit** for managing:  
+  - User authentication state  
+  - Listings and filters  
+  - Loading and error states
+
+### 🖼️ Swiper Integration
+
+- Beautiful image sliders for property previews using **Swiper.js**  
+- Touch-enabled, mobile-optimized carousel
+
 
 ## 🚀 Deployment
 
 - **Project**: Hosted on [Render](https://render.com)  
 - **Authentication**: Firebase with Google OAuth integration
-
+  
 ---
 
 ## 📷 Screenshots
