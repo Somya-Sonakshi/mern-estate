@@ -25,7 +25,7 @@ A full-stack real estate application built with the MERN stack, enabling users t
 
 ## 🚀 Deployment
 
-- **Frontend**: Hosted on [Render](https://render.com)  
+- **Project**: Hosted on [Render](https://render.com)  
 - **Authentication**: Firebase with Google OAuth integration
 
 ---
@@ -41,8 +41,8 @@ A full-stack real estate application built with the MERN stack, enabling users t
 
 ## 📁 Folder Structure
 
-client/ # Vite + React frontend
-api/ # Express.js backend with MongoDB
+-client/ # Vite + React frontend
+-api/ # Express.js backend with MongoDB
 
 
 ---
