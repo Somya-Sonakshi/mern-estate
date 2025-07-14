@@ -41,7 +41,7 @@ A full-stack real estate application built with the MERN stack, enabling users t
 
 ## 📁 Folder Structure
 
--client/ # Vite + React frontend
+-client/ # Vite + React frontend , 
 -api/ # Express.js backend with MongoDB
 
 
